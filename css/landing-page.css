@@ -216,3 +216,16 @@ p.copyright {
   background-size: cover;
 
 }
+.obella-pic2 {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 40%;
+  adding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+  color: #f8f8f8;
+  background: url(../img/community_slider_momoncomp.jpg) no-repeat center center;
+  background-size: cover;
+
+}
