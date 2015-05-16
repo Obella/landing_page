@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -33,9 +33,9 @@ h6 {
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
-    text-align: center;
+    text-align: right;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/main_slider_profilebellywatch.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -43,12 +43,19 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    padding-left: 40%;
 }
 
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+}
+.intro-message > p {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1em;
+    text-align: right;
 }
 
 .intro-divider {
@@ -82,6 +89,7 @@ h6 {
 
     .intro-divider {
         width: 100%;
+        align: right;
     }
 }
 
