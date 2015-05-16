@@ -23,8 +23,14 @@ h6 {
 
 .topnav {
     font-size: 14px;
+
 }
 
+.topnav > img {
+  position: relative;
+  padding-bottom: 40%;
+
+}
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -38,6 +44,13 @@ h6 {
     background: url(../img/main_slider_profilebellywatch.jpg) no-repeat center center;
     background-size: cover;
 }
+/*.intro-message-pic {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 40%;
+    img: url(../img/obellabe_b_logo.png);
+}*/
 
 .intro-message {
     position: relative;
@@ -56,6 +69,10 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 1em;
     text-align: right;
+}
+.intro-message > img {
+  position: relative;
+  padding-left: 50%;
 }
 
 .intro-divider {
