@@ -5,11 +5,17 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+.nav{
+  color: #1d4e89;
+}
 html {
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
+  font-family: helvetica;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
 }
