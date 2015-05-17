@@ -3,9 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- .nav{
-   color: #1d4e89;
- }
+
 body,
 html {
     width: 100%;
@@ -26,12 +24,15 @@ h6 {
 
 .topnav {
     font-size: 14px;
-    color: #1d4e89;
+    text-color: #775ba3;
+    background-color: #1d4e89;
+    /*opacity: 0.5;*/
 }
 
 .topnav > img {
   position: relative;
   padding-bottom: 40%;
+
 
 }
 .lead {
@@ -47,14 +48,6 @@ h6 {
     background: url(../img/main_slider_profilebellywatch.jpg) no-repeat center center;
     background-size: cover;
 }
-/*.intro-message-pic {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    padding-left: 40%;
-    img: url(../img/obellabe_b_logo.png);
-}*/
-
 .intro-message {
     position: relative;
     padding-top: 20%;
